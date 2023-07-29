@@ -4,12 +4,11 @@
     "slug": "PruevaRNCompor",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icons.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "image": "./assets/spla.png",
+      "backgroundColor": "#f8f8ff"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,12 +18,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/iconsAndroid.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.frikimatii7.PruevaRNCompor"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fc7c1456-4258-4ff4-9f49-bdd83fe68dcf"
+      }
     }
   }
 }
